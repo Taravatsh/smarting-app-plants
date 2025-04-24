@@ -1,0 +1,50 @@
+/* Basic styling for the IrrigationSystem component */
+.irrigation-system {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.irrigation-system h2 {
+    text-align: center;
+    color: #333;
+}
+
+.irrigation-system p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.irrigation-system button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.irrigation-system button:hover {
+    background-color: #0056b3;
+}
+
+.irrigation-system input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.irrigation-system .calendar {
+    margin-top: 20px;
+} 

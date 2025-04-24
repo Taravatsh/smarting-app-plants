@@ -1,0 +1,134 @@
+/* Common styles for all components */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.component-container {
+    flex: 1 1 45%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.component-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.component-container p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.component-container button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.component-container button:hover {
+    background-color: #0056b3;
+}
+
+.component-container input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.component-container .calendar {
+    margin-top: 20px;
+}
+
+/* Styles for the tabbed interface */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+    background-color: #0056b3;
+}
+
+.tabs button.active {
+    background-color: #0056b3;
+}
+
+.component-container ul li {
+    color: #333;
+}
+
+/* Styles for the calendar component */
+.calendar {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+}
+
+.calendar h3 {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.calendar .react-calendar {
+    width: 100%;
+    border: none;
+}
+
+.calendar .react-calendar__tile {
+    max-width: initial;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    color: #333;
+}
+
+.calendar .react-calendar__tile--active {
+    background: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+}
+
+.calendar .react-calendar__tile--active:hover {
+    background: #0056b3;
+} 
